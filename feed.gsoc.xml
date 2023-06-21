@@ -14,7 +14,7 @@ layout: null
         {% for post in site.tags["gsoc"] %}
             <item>
                 <title>{{ post.title | xml_escape }}</title>
-                <author>jash28582@gmail.com (Jash Shah)</author>
+                <author>gauravcjoshi17@gmail.com (Gaurav Joshi)</author>
                 <description>{{ post.content | xml_escape }}</description>
                 <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
                 <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
